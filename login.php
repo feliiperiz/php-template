@@ -13,7 +13,7 @@
     <div class="login_wrapper">
       <div class="animate form login_form">
         <section class="login_content">
-          <form>
+          <form name="form-login" action="index.php" method="post">
             <h1>Formulário de Login</h1>
             <div>
               <input type="text" class="form-control" placeholder="Usuário" required="" />
@@ -22,7 +22,7 @@
               <input type="password" class="form-control" placeholder="Senha" required="" />
             </div>
             <div>
-              <a class="btn btn-default submit" href="index.html">Login</a>
+              <a class="btn btn-default submit" href="index.php">Login</a>
               <a class="reset_pass" href="#">Esqueceu sua senha?</a>
             </div>
 
